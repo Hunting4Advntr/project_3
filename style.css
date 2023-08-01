@@ -1,0 +1,86 @@
+/* B A C K G R O U N D   C O L O R S  */
+.bg-is-dkgrn {
+  background-color: #26220d;
+}
+
+.bg-is-grn {
+  background-color: #6e7349;
+}
+
+.bg-is-y {
+  background-color: #d9bc2b;
+}
+
+.bg-is-tan {
+  background-color: #d9b166;
+}
+
+.bg-is-org {
+  background-color: #bf6b04;
+}
+
+.bg-is-rd {
+  background-color: #8c3503;
+}
+
+.bg-is-dkrd {
+  background-color: #591202;
+}
+
+.round-corners {
+  border-radius: 25px;
+}
+
+/* - - - F O N T  - - - F O N T - - - F O N T - - -  */
+.ft-is-dkgrn {
+  color: #26220d;
+}
+
+.ft-is-grn {
+  color: #6e7349;
+}
+
+.ft-is-y {
+  color: #d9bc2b;
+}
+
+.ft-is-tan {
+  color: #d9b166;
+}
+
+.ft-is-org {
+  color: #bf6b04;
+}
+
+.ft-is-rd {
+  color: #8c3503;
+}
+
+.ft-is-dkrd {
+  color: #591202;
+}
+
+/* F O N T   S I Z E */
+.is-size-xl {
+  font-size: 4rem;
+}
+
+/* F O N T   S T Y L E S */
+.header-font {
+  font-family: "Covered By Your Grace", cursive;
+}
+
+/* I C O N S */
+
+.width-50 {
+  width: 50%;
+}
+
+.width-80 {
+  width: 80%;
+}
+
+/* O T H E R - - - O T H E R - - - O T H E R */
+.pad10 {
+  padding-top: 10px;
+}
