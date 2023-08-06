@@ -31,7 +31,7 @@
   border-radius: 25px;
 }
 
-/* - - - F O N T  - - - F O N T - - - F O N T - - -  */
+/* - - - F O N T  - - - F O N T - - - F O N T - - - F O N T - - - F O N T - - - F O N T - - -  */
 .ft-is-dkgrn {
   color: #26220d;
 }
@@ -64,9 +64,7 @@
   color: #ffffff;
 }
 
-/* F O N T   E F F E C T S */
-
-/* F O N T   S I Z E */
+/* F O N T   S I Z E - - - F O N T   S I Z E */
 .is-size-xl {
   font-size: 4rem;
 }
@@ -76,10 +74,14 @@
   font-family: "Covered By Your Grace", cursive;
 }
 
-/* I C O N S */
+/* I C O N S   A N D   P H O T O S */
 
 .width-50 {
   width: 50%;
+}
+
+.width-30 {
+  width: 30%;
 }
 
 .width-80 {
@@ -101,6 +103,20 @@
   padding-right: 20px;
 }
 
+.margins10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.margins20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .height-50 {
   height: 50%;
 }
@@ -115,4 +131,22 @@
 
 .veiw-height-30 {
   height: 30vh;
+}
+
+.veiw-width-50 {
+  height: 50vw;
+}
+
+/* makes V I D E O S responsive */
+.video {
+  aspect-ratio: 16/9;
+  width: 100%;
+}
+
+/* - - - M E D I A   Q U E R E Y - - - M E D I A   Q U E R E Y - - - */
+
+@media screen and (max-width: 600px) {
+  mq-center-text {
+    text-align: center;
+  }
 }
