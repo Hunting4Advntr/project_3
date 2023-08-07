@@ -88,7 +88,14 @@
   width: 80%;
 }
 
+.text-wrap {
+  float: left;
+  margin: 5px;
+}
+
 /* O T H E R - - - O T H E R - - - O T H E R */
+.border {
+}
 .pad10 {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -101,6 +108,13 @@
   padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.pad50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .margins10 {
@@ -136,17 +150,41 @@
 .veiw-width-50 {
   height: 50vw;
 }
+.shadow {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.inner-shadow {
+  box-shadow: inset 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+}
 
+.text-shadow {
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
 /* makes V I D E O S responsive */
 .video {
   aspect-ratio: 16/9;
-  width: 100%;
+  width: 640px;
+  height: 360px;
 }
 
 /* - - - M E D I A   Q U E R E Y - - - M E D I A   Q U E R E Y - - - */
 
 @media screen and (max-width: 600px) {
-  mq-center-text {
+  .mq-center-text {
     text-align: center;
+  }
+  .mq-pad50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .video {
+    aspect-ratio: 16/9;
+    width: 100%;
+  }
+
+  .mq-no-flex {
+    flex-wrap: wrap;
   }
 }
